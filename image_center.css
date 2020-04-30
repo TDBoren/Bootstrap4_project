@@ -1,0 +1,99 @@
+.container img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+}
+
+.container img {
+    filter:drop-shadow(8px 8px 10px gray);
+}
+
+.container img {
+  border-radius: 50px;
+}
+
+.container {
+  position: center;
+  text-align: center;
+  color: blue;
+}
+
+.overlay {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: blue;
+}
+
+.overlay:hover {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.row {
+  display: flex;
+}
+
+p {
+  color:blue;
+}
+
+p:hover {
+  color:red;
+}
+
+.column {
+  flex: 50%;
+}
+
+.table {
+  width: 50%;
+  border: 3px solid blue;
+  padding: 0.5em;
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5em;
+  margin-bottom: 5em;
+  width: 30%;
+}
+
+.table th {
+  background-color: blue;
+  color: aliceblue;
+}
+
+.footer p {
+  text-align: center;
+  font-weight: bold;
+  color: blue;
+}
+.navbar {
+  padding: 8px;
+  background-color: blue;
+}
+
+.navbar li {
+  display: inline;
+  padding: 8px;
+  color:aliceblue;
+}
+
+.navbar li:hover {
+  background-color:red;
+}
